@@ -1,0 +1,14 @@
+#container{ height: 100%;}
+.mainLot{width:800px;height:800px;}
+.road{width:240px;height:40px;border:1px solid black; border-width:1px 0px;margin-top:40px;}
+.vehicle{border:2px solid red;}
+.lotBox{width: 420px;height: 200px;border: 1px solid;}
+.lotBox div{width:70px;height:26px;border:1px solid black;vertical-align: top}
+.queueRoad{vertical-align: bottom;}
+.buttons{text-align: center;display: block !important;cursor:pointer}
+.queueButton{width: 64px;border: 1px solid;border-radius: 10px;margin: 0px 10px;}
+.saveButton{border: 1px solid;border-radius: 10px;width: 50px;}
+.lot1{background-color: grey}
+.lot2{background-color: blue}
+.lot3{background-color: green}
+.mainLot div{display: inline-block;}
