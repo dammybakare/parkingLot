@@ -7,8 +7,9 @@ const LotQueue = React.createClass({
 		};
 	},
 	add: function(){
-		const v = parseInt(prompt('What kind of vehicle, 1, 2 or 3')||'0');
-    const queue = this.props.queue;
+		let v = parseInt(prompt('What kind of vehicle, 1, 2 or 3')||'2');
+		v = v>3 || isNaN(v) || v < 1 ? 2 : v;
+		const queue = this.props.queue;
 		queue.push(v);
 		this.setState({queue});
   },
